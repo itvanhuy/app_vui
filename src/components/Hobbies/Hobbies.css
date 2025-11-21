@@ -1,0 +1,25 @@
+.hobbies-section {
+  margin-bottom: 25px;
+}
+
+.hobbies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.hobby-tag {
+  background: #667eea;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.hobby-tag:hover {
+  background: #764ba2;
+  transform: scale(1.05);
+}
