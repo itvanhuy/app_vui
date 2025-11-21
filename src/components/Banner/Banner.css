@@ -1,0 +1,40 @@
+.banner {
+  background: linear-gradient(135deg, #003366, #0066cc);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.government-badge {
+  margin-bottom: 20px;
+}
+
+.badge-content h3 {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.welcome-message h1 {
+  font-size: 32px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .welcome-message h1 {
+    font-size: 24px;
+  }
+  
+  .banner {
+    padding: 30px 15px;
+  }
+}

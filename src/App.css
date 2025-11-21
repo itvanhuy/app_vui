@@ -1,35 +1,18 @@
-.app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.App {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
+  background: #f8f9fa;
 }
 
 .profile-card {
   background: white;
-  border-radius: 20px;
-  padding: 40px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-  max-width: 450px;
-  width: 100%;
   text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.profile-card:hover {
-  transform: translateY(-5px);
+  border: 1px solid #e9ecef;
 }
 
 /* Responsive */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .profile-card {
-    padding: 30px 20px;
-  }
-  
-  .app {
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
   }
 }

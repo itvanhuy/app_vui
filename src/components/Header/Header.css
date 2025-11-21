@@ -1,0 +1,82 @@
+.header {
+  background: #fff;
+  border-bottom: 2px solid #cc0000;
+}
+
+.header-top {
+  padding: 15px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #08da08, #447f4b);
+  color: white;
+}
+
+.school-info h1 {
+  font-size: 24px;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.school-info h2 {
+  font-size: 18px;
+  margin: 0 0 15px 0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.address-info {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.address-info p {
+  margin: 2px 0;
+}
+
+.document-number {
+  font-size: 12px;
+  font-style: italic;
+  margin: 10px 0 0 0;
+}
+
+.navigation {
+  background: #003366;
+  padding: 0 20px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav-menu li {
+  margin: 0;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.nav-menu a:hover {
+  background: #cc1628;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+  }
+  
+  .nav-menu a {
+    padding: 10px;
+    text-align: center;
+  }
+}
