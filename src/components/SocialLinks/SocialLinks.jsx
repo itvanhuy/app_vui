@@ -1,7 +1,7 @@
 import React from 'react';
 import './SocialLinks.css';
 
-const SocialLinks = () => {
+function SocialLinks(){
   const socialPlatforms = [
     { name: 'Facebook', icon: '📘', url: '#' },
     { name: 'Instagram', icon: '📷', url: '#' },

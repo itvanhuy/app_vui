@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hobbies.css';
 
-const Hobbies = ({ hobbies }) => {
+function Hobbies({ hobbies }){
   return (
     <div className="hobbies-section">
       <h3 className="section-title">Sở thích</h3>

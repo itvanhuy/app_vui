@@ -1,7 +1,7 @@
 import React from 'react';
 import './Avatar.css';
 
-const Avatar = ({ src, alt, isOnline = true }) => {
+function Avatar({ src, alt, isOnline = true })  {
   return (
     <div className="avatar-section">
       <img 

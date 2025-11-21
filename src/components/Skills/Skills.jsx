@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.css';
 
-const Skills = ({ skills }) => {
+function Skills({ skills }){
   return (
     <div className="skills-section">
       <h3 className="section-title">Kỹ năng</h3>

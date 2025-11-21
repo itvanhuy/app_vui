@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProfileInfo.css';
 
-const ProfileInfo = ({ name, title, bio }) => {
+function ProfileInfo({ name, title, bio }){
   return (
     <div className="profile-info">
       <h1 className="profile-name">{name}</h1>

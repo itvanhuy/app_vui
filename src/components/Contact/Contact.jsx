@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 
-const Contact = ({ contact }) => {
+function Contact({ contact }){
   return (
     <div className="contact-section">
       <h3 className="section-title">Liên hệ</h3>
