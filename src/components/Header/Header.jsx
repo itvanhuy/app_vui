@@ -10,7 +10,7 @@ function Header() {
           <h1>TRƯỜNG CAO ĐẲNG ĐÀ NẴNG</h1>
           <h2>ĐÀ NẴNG COLLEGE</h2>
           <div className="address-info">
-            <p><i className='fa fa-map-marker'></i>Trụ sở: 97 Tú Hồ Bình Thành, P. An Hải, TP. Đà Nẵng</p>
+            <p><i className='fa fa-map-marker'></i>Trụ sở: 99 Tô Hiến Thành, Sơn Trà, TP. Đà Nẵng</p>
             <p>*Cơ sở: 210 Ngũ Hành Sơn, P. Hoà Hải, TP. Đà Nẵng</p>
             <p>*Cơ sở: LH-KT, Đ. Mai Đăng Chơn, P. Hoà Hải, TP. Đà Nẵng</p>
           </div>
